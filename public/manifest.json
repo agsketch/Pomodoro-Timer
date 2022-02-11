@@ -1,7 +1,7 @@
 {
 	"name": "Pomodoro Timer",
 	"short_name": "Pomodoro Timer",
-	"start_url": "index.html",
+	"start_url": "./index.html",
 	"scope": "./",
 	"icons": [
 		{
@@ -13,9 +13,16 @@
 			"src": "assets/icon-512.png",
 			"sizes": "512x512",
 			"type": "image/png"
+		},
+		{
+			"src": "assets/maskable-512",
+			"sizes": "512x512",
+			"type": "image/png",
+			"purpose": "any maskable"
 		}
 	],
 	"theme_color": "#212529",
 	"background_color": "#212529",
-	"display": "standalone"
+	"display": "standalone",
+	"prefer_related_applications": false
 }
