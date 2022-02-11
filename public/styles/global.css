@@ -1,0 +1,23 @@
+:root {
+	--gray: #212529;
+	--gray-100: #495057;
+	--gray-200: #adb5bd;
+	--gray-300: #dee2e6;
+	--gray-400: #f8f9fa;
+}
+
+body {
+	color: var(--gray);
+	background-color: var(--gray-400);
+
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 400;
+
+	width: 100vw;
+	height: 100vh;
+	box-sizing: border-box;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
