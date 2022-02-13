@@ -83,6 +83,7 @@
 
     <img
       on:click={toggleEdit}
+      class:disabled={running}
       src={`assets/${editIcon}.svg`}
       alt="Timer Edit Lock"
     />
@@ -149,9 +150,16 @@
   img:hover {
     transform: scale(1.04);
   }
-
+  
   button:disabled {
     background-color: var(--gray-200);
+    transform: scale(1.04);
+    cursor: not-allowed;
+  }
+
+  .disabled {
+    cursor: not-allowed;
+    transform: scale(1.04);
   }
 
   button,
